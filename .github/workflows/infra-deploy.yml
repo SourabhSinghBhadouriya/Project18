@@ -12,7 +12,7 @@ jobs:
   deploy-infra:
     name: Deploy Infrastructure
     runs-on: ubuntu-latest
-    environment: production # ⚠️ REQUIRED: Go to Repo Settings > Environments to create "production" for the Approval step.
+    environment: production_env # ⚠️ REQUIRED: Go to Repo Settings > Environments to create "production" for the Approval step.
 
     steps:
     - name: Checkout Code
